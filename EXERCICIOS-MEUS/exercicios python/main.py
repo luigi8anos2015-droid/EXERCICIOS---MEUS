@@ -1,9 +1,12 @@
-from funcoes import calculadora_gorjeta, calcular_total_com_gorjeta
-
-valor = float(input("Digite o valor da conta: "))
-porcentagem = float(input("Digite a porcentagem de gorjeta: "))
-
-gorjeta = calculadora_gorjeta(valor, porcentagem)
-total = calcular_total_com_gorjeta(valor, porcentagem)
-print(f"A gorjeta é de: {gorjeta:.2f}")
-print(f"O total a pagar é de: {total:.2f}")
+from contador import contar_palavras
+frase = input("Digite uma frase: ").strip()
+if not frase:
+    print("A frase está vazia. Por favor, digite uma frase válida.")
+else:
+    resultado = contar_palavras(frase)
+    if resultado:
+        print("Contagem de palavras:")
+        for palavra, contagem in resultado.items():
+            print(f"{palavra}: {contagem}")
+    else:
+        print("Nenhuma palavra valida foi encontrada")
