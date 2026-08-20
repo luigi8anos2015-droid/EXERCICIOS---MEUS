@@ -11,9 +11,13 @@ O objetivo é evoluir consistentemente resolvendo pequenos problemas todos os di
 EXERCICIOS-MEUS/
 │
 ├── exercicios python/
-│   ├── app.py
-│   ├── contador.py
-│   └── main.py
+│   ├── app.py            # soma dois números com tratamento de erro
+│   ├── atividade.py       # exercícios de lógica (laços, listas, funções)
+│   ├── contador.py        # conta a frequência de palavras em uma frase
+│   ├── estacionamento.py  # calcula valor a pagar em um estacionamento
+│   ├── funcoes.py         # calculadora de gorjeta
+│   ├── IMC.PY             # calcula o IMC e a categoria de peso
+│   └── main.py            # usa o contador.py para contar palavras digitadas
 │
 └── README.md
 ```
@@ -39,6 +43,14 @@ Praticar programação em Python de forma contínua, reforçando conceitos como:
 |------------|------|
 | Diária     | Pelo menos 1 exercício por dia |
 | Semanal    | Revisar e comentar o código da semana |
+
+---
+
+## 🔮 Próximos passos
+
+- [ ] Adicionar exercícios de JavaScript
+- [ ] Adicionar exercícios de HTML
+- [ ] Adicionar exercícios de CSS
 
 ---
 
